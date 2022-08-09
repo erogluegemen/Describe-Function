@@ -62,3 +62,4 @@ class helper:
 h = helper()  # write your dataframe or column here.
 h.numeric_describe()
 h.categorical_describe()
+h.check_df()
