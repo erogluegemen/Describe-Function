@@ -13,3 +13,4 @@
 |      Standart Deviation     |          -             |
 |      Variance               |          -             |
 | Min, %25, %50, %75, Max     |          -             |
+
