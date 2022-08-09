@@ -36,6 +36,27 @@ class helper:
     - Top: {max(set(self.df), key=self.df.count)}
     - Freq: {max(list(Counter.values(self.df.to_dict())))}
                """)
+        
+        
+    def check_df(self, df, head=5):  # df.sample(n=5, random_state=0)
+    print("##################### Shape #####################")
+    print(self.df.shape)
+
+    print("##################### Types #####################")
+    print(self.df.dtypes)
+
+    print("##################### Head #####################")
+    print(self.df.head(head))
+
+    print("##################### Tail #####################")
+    print(self.df.tail(head))
+
+    print("##################### NA #####################")
+    print(self.df.isnull().sum())
+
+    print("##################### Quantiles #####################")
+    print(self.df.quantile([0, 0.25, 0.50, 0.75, 0.99, 1]).T)
+    print(self.df.describe().T)
 
 
 h = helper()  # write your dataframe or column here.
