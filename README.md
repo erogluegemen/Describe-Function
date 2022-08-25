@@ -1,7 +1,7 @@
 # 💫 Features 💫
 
 > This function is prepared to be used when examining data in the EDA phase.<br>
-> It is more specific than pandas describe function.
+> It is more specific than pandas describe function. 
 <hr>
 
 | *Numerical Describe*        | *Categorical Describe* |
